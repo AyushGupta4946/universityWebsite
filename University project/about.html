@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>S R University</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index..html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>About Us</h1>
+    </section>
+
+    <!-- about us content  -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the World's largest Univerity</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ut
+            fugit dolores quidem magnam amet totam? Odio maxime molestiae
+            corrupti minus qui provident labore architecto voluptatum
+            perspiciatis? Ut cum explicabo dolorum unde aperiam, veritatis illum
+            beatae officiis sit eligendi in.
+          </p>
+          <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- copyright -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+        cupiditate distinctio, <br />
+        inventore optio sapiente reprehenderit natus vel hic fugit accusantium.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa-regular fa-heart"></i> by Simraj</p>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("nav-links");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+    <script
+      src="https://kit.fontawesome.com/7cc1870cb6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
